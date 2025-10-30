@@ -4,7 +4,7 @@ import { Link } from "react-router";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar max-w-screen-2xl container mx-auto bg-white px-4">
+      <div className="navbar max-w-screen-2xl container mx-auto  px-4 bg-gray-50">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -108,7 +108,7 @@ const Navbar = () => {
           <Link className="btn btn-outline btn-primary hidden sm:flex">
             Log In
           </Link>
-          <Link className="btn btn-primary bg-sky-600 text-white">
+          <Link className="btn btn-primary bg-sky-600 hover:bg-white hover:textbla hover:text-black">
             Start Free Trial
           </Link>
         </div>
