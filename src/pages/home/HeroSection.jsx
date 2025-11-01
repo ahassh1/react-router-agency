@@ -48,19 +48,13 @@ const HeroSection = () => {
 
       {/* Modal Section */}
       {showModal && (
-        <div
-          className="fixed inset-0 flex items-center justify-center bg-black/25 z-50 backdrop-blur-sm"
-          onClick={closeModal}
-        >
-          <div
-            className="bg-white p-4 md:p-6 rounded-lg shadow-lg max-w-xl w-full relative"
-            onClick={(e) => e.stopPropagation()} // prevents modal from closing when clicking inside
-          >
+        <div className="fixed inset-0 flex items-center justify-center bg-black/25 z-50 backdrop-blur-sm">
+          <div className="bg-white p-4 md:p-6 rounded-lg shadow-lg max-w-xl w-full relative">
             <button
               onClick={closeModal}
-              className="absolute top-2 right-3 text-gray-500 hover:text-red-500 text-xl font-bold"
+              className="absolute top-3 text-lg right-3 px-2 hover:text-red-600 bg-black text-white rounded-full"
             >
-              ×
+              &times;
             </button>
             <div className="aspect-video">
               <iframe
