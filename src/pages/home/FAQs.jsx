@@ -57,7 +57,7 @@ const FAQs = () => {
         {faqs.map((faq) => (
           <div
             key={faq.id}
-            className="border bg-white border-gray-200 mb-4 hover:bg-gray-50 transition duration-200"
+            className="border bg-white border-gray-200 mb-4 transition duration-200"
           >
             {/* quesiton section */}
             <div
