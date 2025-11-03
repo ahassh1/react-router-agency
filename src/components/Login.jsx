@@ -56,7 +56,7 @@ const Login = () => {
             </div>
             <div>
               <h3 className="text-gray-600 font-semibold">
-                Already Have An Account? Please{" "}
+                Don't Have An Account? Please{" "}
                 <Link to="/register" className="text-blue-500 hover:underline ">
                   Sign up
                 </Link>
