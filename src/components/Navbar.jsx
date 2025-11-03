@@ -86,7 +86,7 @@ const Navbar = () => {
             <li>
               <details>
                 <summary>Categories</summary>
-                <ul className="p-2">
+                <ul className="p-2 z-50">
                   <li>
                     <Link to="/">Web Desing</Link>
                   </li>
@@ -105,10 +105,17 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end space-x-3">
-          <Link className="btn btn-outline btn-primary hidden sm:flex">
+          <Link
+            to="/login"
+            className="btn btn-outline btn-primary hidden sm:flex"
+          >
             Log In
           </Link>
-          <Link className="btn btn-primary bg-sky-600 hover:bg-white hover:textbla hover:text-black">
+          <Link
+            to="/ErrorPage
+          "
+            className="btn btn-primary bg-sky-600 hover:bg-white hover:textbla hover:text-black"
+          >
             Start Free Trial
           </Link>
         </div>
