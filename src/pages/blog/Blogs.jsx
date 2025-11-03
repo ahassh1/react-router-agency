@@ -57,10 +57,10 @@ const Blogs = () => {
         heading="Latest Articles And Insigts"
       />
       {/* blog container  */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">
         {blogs.map((blog, index) => (
           <div
-            key={blog.id}
+            key={index}
             className="bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer "
           >
             <img

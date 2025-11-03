@@ -69,7 +69,7 @@ const TeamSection = () => {
             />
             {/* content  */}
             <div className="px-5">
-              <h1 className="text-xl font-semibold text-gray-700 mb-2">
+              <h1 className="text-xl font-semibold text-gray-700 my-3">
                 {member.name}
               </h1>
               <h5 className="text-sm text-gray-500 mb-4">{member.role}</h5>
@@ -90,7 +90,7 @@ const TeamSection = () => {
               </Link>
             </div>
             {/* contact button  */}
-            <button className="bg-blue-500 text-white rounded-full  hover:bg-blue-700 px-5 py-2 transition duration-300 my-5">
+            <button className="bg-blue-400 text-white rounded-full  hover:bg-blue-700 px-5 py-2 transition duration-300 my-5 ml-2">
               Contact {member.name.split(" ")[0]}
             </button>
           </div>
