@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import HeadingSection from "../../components/HeadingSection";
-import { list } from "postcss";
 
 const pricingPlans = [
   {
