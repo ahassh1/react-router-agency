@@ -8,6 +8,7 @@ import Blogs from "../blog/Blogs";
 import TeamSection from "./TeamSection";
 import Pricing from "./Pricing";
 import FAQs from "./FAQs";
+import Newsletter from "./Newsletter";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <TeamSection />
       <Pricing />
       <FAQs />
+      <Newsletter />
     </>
   );
 };
